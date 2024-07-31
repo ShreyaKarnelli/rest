@@ -1,0 +1,99 @@
+#home{
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 5px lightblue;
+    margin-bottom: 10px;
+    padding-bottom: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 2%;
+    padding: 2%;
+}
+
+#about{
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 5px lightblue;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding: 2%;
+}
+.menu-item {
+    text-align: center;
+  }
+  .menu-item img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  }
+  .menu-item h5 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-bottom: 2%;
+    color: antiquewhite;
+  }
+  .menu-item img:hover{
+    transform: scale(1.1);
+  }
+
+  #menu{
+    background-color: black;
+    margin-top: 2%;
+    padding-top: 0.5%;
+    margin-bottom: 2%;
+  }
+
+  #menu h1{
+    color: antiquewhite;
+  }
+
+  .card { 
+    height: 100%; /* Make the card take full height of its container */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+  }
+
+  .card-img-top {
+    width: 100%; /* Ensure the image covers the card width */
+    height: 200px; /* Fixed height for the images */
+    object-fit: cover; /* Cover the area without distortion */
+  }
+  .card-body {
+    flex: 1; /* Allow the card body to expand and fill the remaining space */
+  } 
+
+  #sandwich .card {
+    width: 80%; /* Set card width to 80% of its container */
+    margin: 0 auto; /* Center card horizontally */
+    height: 100%; /* Ensure the card takes up full height of its container */
+  }
+
+  #contact {
+    padding: 40px 0;
+    background-color: paleturquoise;
+  }
+  .form-control, .form-select {
+    border-radius: 0.25rem;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover;
+    width: 100%;
+  }
